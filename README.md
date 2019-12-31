@@ -46,6 +46,8 @@ for service in result['matches']:
     VulnerableIP.append(service['ip_str'])
 ```
 
+# Hacking the Pi-Hole
+
 Pi-Hole doesn't block bruteforcing. You can enter 200,000 incorrect passwords and Pi-Hole wouldn't care. How easy is it to create a brute-force attack? With Hydra - very easy.
 Hydra is a brute-forcing tool that uses a dictionary to attack a target. The payload for brute-forcing a Pi-Hole is:
 
