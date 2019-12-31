@@ -58,7 +58,7 @@ Since Pi-Hole doesn't block brute-force attacks, it makes it trivial to brute-fo
 
 To recap, it is possible to get a list of all the vulnerable Pi-Holes and to brute-force their passwords with a dictionary attack. 
 
-I will not show code for this, because it is illegal. However, you can see the 2 separate parts in action above.
+I will not show code for this, because it is illegal. However, you can see the 2 separate parts in action above. Please test your own Pi-Hole. Do not test a Pi-Hole you do not own.
 
 # What can an attacker see?
 Once the attacker has gained access to your Pi-Hole, they can see every website you visit. Your hosts' files, your clients and their IP addresses. Your top domains and your top blocked domains. 
