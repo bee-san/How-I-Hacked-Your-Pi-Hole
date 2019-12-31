@@ -71,8 +71,7 @@ Considering your entire internet history is there.
 An attacker could use your DNS server to perform a DDoS attack. This is very common and is called a [DNS amplification attack.](https://www.cloudflare.com/learning/ddos/dns-amplification-ddos-attack/)
 This is likely illegal for you to allow this, depending on the country. Another reason to not use a publically facing Pi-Hole.
 # How to protect yourself
-Firstly, check if your Pi-Hole is publically accessible.
-Search your IP address on Shodan.io. Read the output. Shodan will tell you what ports are open, and will let you know whether it thinks a Pi-Hole service is running.
+Search your IP address on [Shodan.io](shodan.io). Read the output. Shodan will tell you what ports are open, and will let you know whether it thinks a Pi-Hole service is running.
 
 1. Use a VPN to connect to your Pi-Hole:
 https://www.reddit.com/r/pihole/comments/bl4ka8/guide_pihole_on_the_go_with_wireguard/
